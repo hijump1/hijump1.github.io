@@ -27,7 +27,7 @@ body {
   }
   
   a {
-    color: #d21034;
+    color: #3410d2;
   }
   
   .container {
@@ -53,5 +53,13 @@ body {
     width: 220x;
     height: 200px;
     margin-right: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: green;
   }
   
