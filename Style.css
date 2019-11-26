@@ -3,20 +3,35 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'work sans' , sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: #333;
     background: #fff;
-  }
-  
+}
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
   header {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    background: green;
-  }
+    background: #fff
+}
+
+  header: : after {
+      content: '';
+      display: table;
+      clear: both;
+}
+
+  .logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
   
   a {
     color: #3410d2;
@@ -52,6 +67,6 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     color: #fff;
-    background: green;
+    background: rgb(36, 70, 122)
   }
   
